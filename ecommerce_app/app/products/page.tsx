@@ -1,11 +1,5 @@
-"use client"
-import type { Metadata } from "next"
-import ProductsContainer from "@/components/products/products-container"
-
-export const metadata: Metadata = {
-  title: "YeneShop - Our Collection",
-  description: "Browse our complete collection of products.",
-}
+"use client";
+import ProductsContainer from "@/components/products/products-container";
 
 export default function ProductsPage() {
   return (
@@ -13,5 +7,6 @@ export default function ProductsPage() {
       <h1 className="text-4xl font-bold mb-8 border-b border-amber-200 pb-4">Our Collection</h1>
       <ProductsContainer />
     </div>
-  )
+  );
 }
+
